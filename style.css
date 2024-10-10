@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0,0,0,0.5 )50%, rgb(0,0,0,0.5)50%), url(imgs/tải\ xuống.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+    
+}
+
+.logo{
+    background-image: url(imgs/Logo.png);
+    background-color: none;
+    background-size: 70px;
+    font-size: 35px;
+    font-family: Arial;
+    padding: 20px;
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    margin-top: 23px;
+    margin-right: 10px;
+    
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 330px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 27px;
+    color:#fff;
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px ;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 62px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 27.5px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+p>img
+{
+    width : 20% ;
+    padding: 10px;
+    margin: 5px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 0 0 5px blue;
+}
+p>img:hover
+{
+    box-shadow: 0 0 20px red;
+    background-color: aqua;
+}
+
+
+.column{
+    color: blue;
+    width: 25%;
+    float:left;
+    text-align: center;
+    background-color: wheat;
+    color: blue;
+   
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  
+}
+.ten{
+    text-align: center;
+    font-size:larger;
+    font-variant:small-caps ;
+    color: red ;
+}
+.sanpham img{
+    max-width: 95%;
+    top:200px;
+    text-align: center;
+
+}
+.gia{
+    color: red;
+    font-weight: bold ;
+    font-size: large;
+    text-align: center;
+}
+.gia del{
+    color: gray;
+}
